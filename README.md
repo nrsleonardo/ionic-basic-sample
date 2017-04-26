@@ -3,6 +3,16 @@ Projeto simples utilizando o framework IONIC para complementar a palestra minist
 
 Requisitos:
 - NodeJS
+```
+Windows e Mac: https://nodejs.org/en/download/
+```
+```
+Linux
+$ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+$ sudo apt-get install -y build-essential
+```
+
 
 Clonar o projeto no diretório desejado
 ```
