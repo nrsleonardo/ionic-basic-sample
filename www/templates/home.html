@@ -1,0 +1,22 @@
+<ion-view view-title=" ">
+ 
+  <ion-content padding = "10">
+  <button class="button button-full button button-assertive" ng-click="recebeCupom()">
+  Buscar cupons
+  </button> 
+  <hr>
+  <ul>
+    <li ng-repeat="(key,data) in mydata">
+     <strong>Produto: {{ data.title }} </strong><br>
+     <img ng-src="http://cupons.mcdonalds.com.br/image/{{ data.image }}"/><br>
+      <div class="buttonCupom" ng-if="!data.expired">
+      <button class="button button-full button-positive" ng-click="pegaCupom(data._id, $index)">Gerar Cupom</button>
+      </div>
+      <span class="expirationDate" ng-if="data.expired">Promoção esgotada!</span>
+     <br>
+     <br>
+     <br>
+    </li>
+  </ul>
+  </ion-content>
+</ion-view>

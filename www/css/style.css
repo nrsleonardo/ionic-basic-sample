@@ -1,0 +1,41 @@
+/* Empty. Add your own CSS if you like */
+img {
+    width: 100%;
+    height: auto;
+}
+
+.bar.bar-stable {
+	background-color: #aa0010;
+}
+
+.bar .title {
+	background-image: url("http://cupons.mcdonalds.com.br/image/475d055e0b8799a2f1007593cb94262d.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    height: 2rem;
+    /* width: auto !important; */
+    top: -9px;
+    position: initial;
+    width: 100%;
+}
+
+.expirationDate {
+	display: block;
+    background-color: #BF0000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.scroll {
+    height: 100%;
+}
+ 
+#map {
+    width: 100%;
+    height: 100%;
+}
