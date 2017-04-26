@@ -51,3 +51,13 @@ Rodar a aplicação no modo comparativo (iOS View + Android View)
 ```
 $ ionic serve --lab
 ```
+
+Links úteis
+- Apresentação do workshop: https://goo.gl/Ta1piq
+- Códigos do Hands On: https://github.com/driftyco/ionic-cli 
+- Documentação completa do Ionic: http://ionicframework.com/docs/v1/
+- Componentes de UI (Design) do Ionic: http://ionicframework.com/docs/v1/components/
+- Componentes JavaScript do Ionic: http://ionicframework.com/docs/v1/api/
+- Aos iniciantes em JavaScript: http://jstherightway.org/pt-br/
+- Análise conceitual e aprofundada sobre Ionic: https://goo.gl/bkkOiH 
+- Guia definitivo Hybrid vs Native: https://goo.gl/146ig4
