@@ -52,6 +52,17 @@ Rodar a aplicação no modo comparativo (iOS View + Android View)
 $ ionic serve --lab
 ```
 
+
+Rodar a aplicação em um device conectado via USB
+> Habilitar o USB debugging no aparelho
+> Conectar via USB e aguardar o reconhecimento
+> Executar os comandos em linha e aguardar
+```
+$ ionic build android
+$ ionic run android
+```
+
+
 Links úteis
 - Apresentação do workshop: https://goo.gl/Ta1piq
 - Códigos do Hands On: https://github.com/driftyco/ionic-cli 
