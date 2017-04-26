@@ -1,6 +1,6 @@
 # ionic-basic-sample
 Projeto simples utilizando o framework IONIC para complementar a palestra ministrada por Sidarta e Leonardo.
-
+<br><br>
 
 Requisitos:
 - NodeJS
@@ -14,55 +14,55 @@ $ sudo apt-get install -y nodejs
 $ sudo apt-get install -y build-essential
 ```
 
-
+<br><br>
 Clonar o projeto no diretório desejado
 ```
 $ git clone https://github.com/leonardoneris/ionic-basic-sample.git
 $ cd ionic-basic-sample
 ```
 
-
+<br><br>
 Instalar as dependencias do IONIC (Caso ainda não tenha)
 ```
 $ npm install -g cordova ionic
 ```
 
-
+<br><br>
 Instalar o Bower (Caso ainda não tenha)
 ```
 $ npm install -g bower
 ```
 
-
+<br><br>
 Instalar as dependencias do projeto
 ```
 $ npm install
 $ bower install
 ```
 
-
+<br><br>
 Rodar a aplicação no modo desenvolvimento (Dev + Live reload)
 ```
 $ ionic serve
 ```
 
-
+<br><br>
 Rodar a aplicação no modo comparativo (iOS View + Android View)
 ```
 $ ionic serve --lab
 ```
 
-
+<br><br>
 Rodar a aplicação em um device conectado via USB
-> Habilitar o USB debugging no aparelho
-> Conectar via USB e aguardar o reconhecimento
-> Executar os comandos em linha e aguardar
+- Habilitar o USB debugging no aparelho
+- Conectar via USB e aguardar o reconhecimento
+- Executar os comandos em linha e aguardar
 ```
 $ ionic build android
 $ ionic run android
 ```
 
-
+<br><br>
 Links úteis
 - Apresentação do workshop: https://goo.gl/Ta1piq
 - Códigos do Hands On: https://github.com/driftyco/ionic-cli 
